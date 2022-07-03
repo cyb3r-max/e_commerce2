@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:e_commerce/theme/theme.dart';
-import 'package:e_commerce/widget/product_icon.dart';
 import 'package:e_commerce/theme/light_color.dart';
 import 'package:e_commerce/widget/title_text.dart';
 
@@ -150,13 +149,6 @@ class _MainPageState extends State<MainPage> {
                 ),
               ),
             ),
-            /*Positioned(
-              bottom: 0,
-              right: 0,
-              child: CustomBottomNavigationBar(
-                onIconPresedCallback: onBottomIconPressed,
-              ),
-            )*/
           ],
         ),
       ),

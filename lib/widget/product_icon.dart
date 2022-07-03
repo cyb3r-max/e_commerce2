@@ -4,8 +4,7 @@ import 'package:e_commerce/theme/theme.dart';
 import 'package:e_commerce/model/category.dart';
 import 'package:e_commerce/widget/title_text.dart';
 class ProductIcon extends StatelessWidget {
-  // final String imagePath;
-  // final String text;
+
   final ValueChanged<Category> onSelected;
   final Category model;
   ProductIcon({Key? key, required this.model, required this.onSelected}) : super(key: key);

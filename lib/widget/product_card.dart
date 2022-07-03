@@ -11,18 +11,6 @@ class ProductCard extends StatelessWidget {
   final ValueChanged<Product> onSelected;
   ProductCard({Key? key, required this.product, required this.onSelected}) : super(key: key);
 
-//   @override
-//   _ProductCardState createState() => _ProductCardState();
-// }
-
-// class _ProductCardState extends State<ProductCard> {
-//   Product product;
-//   @override
-//   void initState() {
-//     product = widget.product;
-//     super.initState();
-//   }
-
   @override
   Widget build(BuildContext context) {
     return Container(
